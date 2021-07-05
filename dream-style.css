@@ -3,6 +3,12 @@ body{
     margin: 0;
   /* section 1 is center in html */
 }
+section p{
+    color:orange;
+}
+ul{
+    color: orange;
+}
 hr{
     width: 80%;
     background-image:linear-gradient(130deg,blue,aqua) ;
@@ -18,7 +24,12 @@ hr{
     height: 85vh;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+    color: white;
+}
+.exprience-h1{
+    margin-left: 5%;
+    color:#000;
 }
 a{
     text-decoration: none;
@@ -33,7 +44,8 @@ a{
     width: 70%;
 }
 .yellow-color{
-    color: brown;
+    text-transform:uppercase ;
+    color: #ffd900e3;
     text-shadow: gray -2px 2px 2px;
 }
 .link-button{
